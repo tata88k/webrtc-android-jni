@@ -44,7 +44,7 @@ apm->Initialize();
 // Close the application...
 AudioProcessing::Destroy(apm);
 apm = NULL;
-```
-##more
+```  
+
 [click me !](https://trac.pjsip.org/repos/ticket/1888)
 
