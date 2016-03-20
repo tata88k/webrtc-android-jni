@@ -1,11 +1,11 @@
 # webrtc-android-jni
-webrtc native audio processing module for android
+Webrtc AEC module and its required dependencies module for android.
 
-#terminal compile
-* cd jni directory
-* run ndk-build
+#How to build WebRTC
+* Go to jni folder and run ndk-build
+* Copy the resulting .so files from ../libs/[target_architecture] into your Android application project directory
 
-#usage
+#AEC Usage
 ![Image](https://github.com/ThePacific/webrtc-android-jni/blob/master/art/usage.png)  
 ```c++
 AudioProcessing* apm = AudioProcessing::Create(0);
