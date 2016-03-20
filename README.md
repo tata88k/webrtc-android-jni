@@ -5,7 +5,7 @@ webrtc AEC module and its required dependencies module for android.
 * Go to jni folder and run ndk-build
 * Copy the resulting .so files from ../libs/[target_architecture] into your Android application project directory
 
-#AEC Usage
+#Example
 ![Image](https://github.com/ThePacific/webrtc-android-jni/blob/master/art/usage.png)  
 ```c++
 AudioProcessing* apm = AudioProcessing::Create(0);
@@ -46,6 +46,6 @@ apm->Initialize();
 AudioProcessing::Destroy(apm);
 apm = NULL;
 ```
-#More
-[link](https://trac.pjsip.org/repos/ticket/1888)
+#More information
+[click me !](https://trac.pjsip.org/repos/ticket/1888)
 
