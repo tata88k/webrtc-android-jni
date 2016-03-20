@@ -1,5 +1,5 @@
 # webrtc-android-jni
-Webrtc AEC module and its required dependencies module for android.
+webrtc AEC module and its required dependencies module for android.
 
 #How to build WebRTC
 * Go to jni folder and run ndk-build
@@ -46,6 +46,6 @@ apm->Initialize();
 AudioProcessing::Destroy(apm);
 apm = NULL;
 ```
-#More info
-![link](https://trac.pjsip.org/repos/ticket/1888)
+#More
+[link](https://trac.pjsip.org/repos/ticket/1888)
 
