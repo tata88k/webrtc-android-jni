@@ -46,5 +46,5 @@ AudioProcessing::Destroy(apm);
 apm = NULL;
 ```  
 
-[More information](https://trac.pjsip.org/repos/ticket/1888)
+[More information !](https://trac.pjsip.org/repos/ticket/1888)
 
